@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio - Cartography</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1 style="color: #ffffff; text-align: center">Kim Kresan</h1>
+		</div>
+
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<ul class="navbar-nav justify-content-center d-flex flex-row w-100">
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./cartography.html">Cartography</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link active" href="#">Paintings and Drawings</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./photography.html">Photography</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="section">
+			<h4>FINE ART</h4>
+		</div>
+
+		<!-- image grid -->
+		<div class="container my-5">
+			<div class="row g-4 justify-content-center">
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/deer-messiah.png"
+						class="img-thumbnail w-100"
+						alt="Deer Messiah"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/deer-messiah.png')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/2023-portrait.jpg"
+						class="img-thumbnail w-100"
+						alt="2023 Self Portrait"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/2023-portrait.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/green-hair.jpg"
+						class="img-thumbnail w-100"
+						alt="Green hair self portrait"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/green-hair.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/crane.jpg"
+						class="img-thumbnail w-100"
+						alt="Crane"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/crane.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/deer-pansy.jpg"
+						class="img-thumbnail w-100"
+						alt="Deer pansy"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/deer-pansy.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/meadowlark.jpg"
+						class="img-thumbnail w-100"
+						alt="Meadowlark"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/meadowlark.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/scarab.jpg"
+						class="img-thumbnail w-100"
+						alt="Scarab"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/scarab.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/swallowtail.jpg"
+						class="img-thumbnail w-100"
+						alt="Swallowtail butteryfly"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/swallowtail.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/self-portrait-2019.png"
+						class="img-thumbnail w-100"
+						alt="Self portrait 2019"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/self-portrait-2019.png')"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<h4>CONCEPTS & GAME DESIGN</h4>
+		</div>
+
+		<div class="container my-5">
+			<div class="row g-4 justify-content-center">
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/adva-outfits-2020.jpg"
+						class="img-thumbnail w-100"
+						alt="Adva outfit concepts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/adva-outfits-2020.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/tide-iso-eatery.jpg"
+						class="img-thumbnail w-100"
+						alt="Tide isometric eatery"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/tide-iso-eatery.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/riak-plant-guide.jpg"
+						class="img-thumbnail w-100"
+						alt="Riak Tide Plant Guide"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/riak-plant-guide.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/tide-iso-building.jpg"
+						class="img-thumbnail w-100"
+						alt="Tide isometric building"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/tide-iso-building.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/adva-poses.jpg"
+						class="img-thumbnail w-100"
+						alt="Adva outfit concepts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/adva-poses.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/swamp-witch.jpg"
+						class="img-thumbnail w-100"
+						alt="Swamp Witch"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/swamp-witch.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/winter-adva.jpg"
+						class="img-thumbnail w-100"
+						alt="Winter Adva"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/winter-adva.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/adva-crouched.jpg"
+						class="img-thumbnail w-100"
+						alt="Adva crouched"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/adva-crouched.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/tide-character-creator.jpg"
+						class="img-thumbnail w-100"
+						alt="Tide character creator"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/tide-character-creator.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/wind-concepts.jpg"
+						class="img-thumbnail w-100"
+						alt="Wind character concepts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/wind-concepts.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/hai-fal.jpg"
+						class="img-thumbnail w-100"
+						alt="Hai Fal character concepts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/hai-fal.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/tide-env-thumbs.jpg"
+						class="img-thumbnail w-100"
+						alt="Tide environment thumbnails"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/tide-env-thumbs.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/ap-shell.jpg"
+						class="img-thumbnail w-100"
+						alt="AP Shell"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/ap-shell.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/elephant-girl.jpg"
+						class="img-thumbnail w-100"
+						alt="Elephant girl"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/elephant-girl.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/tiling-textures.jpg"
+						class="img-thumbnail w-100"
+						alt="Handpainted tiling textures"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/tiling-textures.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/space-kiwi.jpg"
+						class="img-thumbnail w-100"
+						alt="Space Kiwi"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/space-kiwi.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/two.jpg"
+						class="img-thumbnail w-100"
+						alt="Two"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/two.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/pulse-gun.jpg"
+						class="img-thumbnail w-100"
+						alt="Pulse gun concepts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/pulse-gun.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/kim-2018-stuff.jpg"
+						class="img-thumbnail w-100"
+						alt="Self portrait 2018"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/kim-2018-stuff.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/tide-pirate.jpg"
+						class="img-thumbnail w-100"
+						alt="Tide pirate"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/tide-pirate.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/home-concepts.jpg"
+						class="img-thumbnail w-100"
+						alt="Home character concepts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/home-concepts.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/lit-tiling-textures.jpg"
+						class="img-thumbnail w-100"
+						alt="Handpainted tiling textures"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/lit-tiling-textures.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/lit-screenshot-1.jpg"
+						class="img-thumbnail w-100"
+						alt="Lost in Thought screenshot"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/lit-screenshot-1.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/lit-screenshot-2.jpg"
+						class="img-thumbnail w-200"
+						alt="Lost in Thought screenshot"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/lit-screenshot-1.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/lit-screenshot-3.jpg"
+						class="img-thumbnail w-300"
+						alt="Lost in Thought screenshot"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/lit-screenshot-3.jpg')"
+					/>
+				</div>
+				<!-- Add more images as needed -->
+			</div>
+		</div>
+
+		<div class="section">
+			<h4>LOCAL PROJECTS</h4>
+		</div>
+
+		<div class="container my-5">
+			<div class="row g-4 justify-content-center">
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/3rd-myrtle-design.jpg"
+						class="img-thumbnail w-100"
+						alt="Sidewalk art - 3rd and Myrtle, Missoula, MT - design"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/3rd-myrtle-design.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/3rd-myrtle-concept.jpg"
+						class="img-thumbnail w-100"
+						alt="Sidewalk art - 3rd and Myrtle, Missoula, MT - concept"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/3rd-myrtle-concept.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/3rd-myrtle-install.jpg"
+						class="img-thumbnail w-100"
+						alt="Sidewalk art - 3rd and Myrtle, Missoula, MT - installation"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/3rd-myrtle-install.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/the-trail-ahead.jpg"
+						class="img-thumbnail w-100"
+						alt="Equine Art Extravaganza - The Trail Ahead concept"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/the-trail-ahead.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/eae-mystery.jpg"
+						class="img-thumbnail w-100"
+						alt="Equine Art Extravaganza - Mystery"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/eae-mystery.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/eae-portrait.jpg"
+						class="img-thumbnail w-100"
+						alt="Equine Art Extravaganza - artist and Mystery portrait"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/eae-portrait.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/eae-zoom.jpg"
+						class="img-thumbnail w-100"
+						alt="Equine Art Extravaganza - detail"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/eae-zoom.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/pastry-sign.jpg"
+						class="img-thumbnail w-100"
+						alt="Pastry sign"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/pastry-sign.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/derby-poster.jpg"
+						class="img-thumbnail w-100"
+						alt="Roller derby poster"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/derby-poster.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/painting-drawing/derby-poster-2.jpg"
+						class="img-thumbnail w-100"
+						alt="Roller derby poster"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/painting-drawing/derby-poster-2.jpg')"
+					/>
+				</div>
+				<!-- Add more images as needed -->
+			</div>
+		</div>
+
+		<!-- Modal for enlarged image with arrows -->
+		<div
+			class="modal fade"
+			id="imageModal"
+			tabindex="-1"
+			aria-labelledby="imageModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content bg-dark">
+					<div
+						class="modal-body text-center p-0 position-relative"
+						style="overflow: hidden"
+					>
+						<!-- Left arrow -->
+						<button
+							id="modalPrev"
+							type="button"
+							class="btn btn-dark position-absolute top-50 start-0 translate-middle-y"
+							style="z-index: 2; font-size: 2rem; opacity: 0.7"
+						>
+							&#8592;
+						</button>
+						<!-- Image -->
+						<img
+							id="modalImage"
+							src=""
+							class="img-fluid"
+							style="max-height: 90vh; object-fit: contain"
+							alt="Enlarged image"
+						/>
+						<!-- Right arrow -->
+						<button
+							id="modalNext"
+							type="button"
+							class="btn btn-dark position-absolute top-50 end-0 translate-middle-y"
+							style="z-index: 2; font-size: 2rem; opacity: 0.7"
+						>
+							&#8594;
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="config.js"></script>
+	</body>
+</html>

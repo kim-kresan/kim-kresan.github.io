@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio - Cartography</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1 style="color: #ffffff; text-align: center">Kim Kresan</h1>
+		</div>
+
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<ul class="navbar-nav justify-content-center d-flex flex-row w-100">
+					<li class="nav-item mx-2">
+						<a class="nav-link active" href="#">Cartography</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./paintings-drawings.html"
+							>Paintings and Drawings</a
+						>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./photography.html">Photography</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- image grid -->
+		<div class="container my-5">
+			<div class="row g-4 justify-content-center">
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/nacis-tacoma.jpg"
+						class="img-thumbnail w-100"
+						alt="Tacoma, Washington - NACIS 2024"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/nacis-tacoma.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/mideast-poster.jpg"
+						class="img-thumbnail w-100"
+						alt="Middle East - an evolving natural gas landscape"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/mideast-poster.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/belgrade.jpg"
+						class="img-thumbnail w-100"
+						alt="Belgrade, Montana"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/belgrade.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/san-juans.jpg"
+						class="img-thumbnail w-100"
+						alt="The San Juans"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/san-juans.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/la-nina.png"
+						class="img-thumbnail w-100"
+						alt="Commodities markets brace for La Nina impacts"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/la-nina.png')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/bitterroot-river.jpg"
+						class="img-thumbnail w-100"
+						alt="Bitterrot River relative eleveation map"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/bitterroot-river.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/mideast-threat.png"
+						class="img-thumbnail w-100"
+						alt="Middle East oil assets, trade routes under threat"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/mideast-threat.png')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/kronotsky.jpg"
+						class="img-thumbnail w-100"
+						alt="Kronotsky Nature Reserve"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/kronotsky.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/lochsa.jpg"
+						class="img-thumbnail w-100"
+						alt="The Lochsa River"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/lochsa.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/slant-streets.jpg"
+						class="img-thumbnail w-100"
+						alt="Missoula at a Slant"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/slant-streets.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/missoula-joy.jpg"
+						class="img-thumbnail w-100"
+						alt="Missoula Joy Plot"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/missoula-joy.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/asia-physical.jpg"
+						class="img-thumbnail w-100"
+						alt="A physical map of mainland Asia"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/asia-physical.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/asia-political.jpg"
+						class="img-thumbnail w-100"
+						alt="A political map of mainland Asia"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/asia-political.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/denali.jpg"
+						class="img-thumbnail w-100"
+						alt="Denali National Park"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/denali.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/flathead-joy.jpg"
+						class="img-thumbnail w-100"
+						alt="Flathead Lake Joy Plot"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/flathead-joy.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/lux-city.jpg"
+						class="img-thumbnail w-100"
+						alt="Lux City Map"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/lux-city.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/lux-world.jpg"
+						class="img-thumbnail w-100"
+						alt="Lux World Map"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/lux-world.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/cartography/ravalli-joy.jpg"
+						class="img-thumbnail w-100"
+						alt="Ravalli County Joy Plot"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/cartography/ravalli-joy.jpg')"
+					/>
+				</div>
+
+				<!-- Add more images as needed -->
+			</div>
+		</div>
+
+		<!-- Modal for enlarged image with arrows -->
+		<div
+			class="modal fade"
+			id="imageModal"
+			tabindex="-1"
+			aria-labelledby="imageModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content bg-dark">
+					<div
+						class="modal-body text-center p-0 position-relative"
+						style="overflow: hidden"
+					>
+						<!-- Left arrow -->
+						<button
+							id="modalPrev"
+							type="button"
+							class="btn btn-dark position-absolute top-50 start-0 translate-middle-y"
+							style="z-index: 2; font-size: 2rem; opacity: 0.7"
+						>
+							&#8592;
+						</button>
+						<!-- Image -->
+						<img
+							id="modalImage"
+							src=""
+							class="img-fluid"
+							style="max-height: 90vh; object-fit: contain"
+							alt="Enlarged image"
+						/>
+						<!-- Right arrow -->
+						<button
+							id="modalNext"
+							type="button"
+							class="btn btn-dark position-absolute top-50 end-0 translate-middle-y"
+							style="z-index: 2; font-size: 2rem; opacity: 0.7"
+						>
+							&#8594;
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="config.js"></script>
+	</body>
+</html>

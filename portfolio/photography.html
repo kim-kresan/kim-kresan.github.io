@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio - Cartography</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1 style="color: #ffffff; text-align: center">Kim Kresan</h1>
+		</div>
+
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<ul class="navbar-nav justify-content-center d-flex flex-row w-100">
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./cartography.html">Cartography</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./paintings-drawings.html"
+							>Paintings and Drawings</a
+						>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link active" href="./photography.html">Photography</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- image grid -->
+		<div class="container my-5">
+			<div class="row g-4 justify-content-center">
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0021_21A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0021_21A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0021_21A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0007_7A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0007_7A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0007_7A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0009_9A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0009_9A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0009_9A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0010_10A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0010_10A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0010_10A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0019_19A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0019_19A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0019_19A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0032_32A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0032_32A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0032_32A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0027_27A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0027_27A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0027_27A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0006_3A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0006_3A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0006_3A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0014_12A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0014_12A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0014_12A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0015_14A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0015_14A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0015_14A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0016_15A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0016_15A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0016_15A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0021_20A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0021_20A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0021_20A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0015_13.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0015_13"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0015_13.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0006_4.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0006_4"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0006_4.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/11_00344.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0011_00344"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0011_00344.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/5A_00104.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 5A_00104"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/5A_00104.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/13A_00112.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 13A_00112"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/13A_00112.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/00A_00098.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 00A_00098"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/00A_00098.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0A_00099.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0A_00099"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0A_00099.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0011_7A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0011_7A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0011_7A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0014_10A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0014_10A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0014_10A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0015_11A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0015_11A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0015_11A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0016_12A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0016_12A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0016_12A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0022_18A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0022_18A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0022_18A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0026_22A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0026_22A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0026_22A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0038_35A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0038_35A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0038_35A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0039_36A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0039_36A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0039_36A.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/0024_20A.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 0024_20A"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/0024_20A.jpg')"
+					/>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/00_00359.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph _00_00359"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/_00_00359.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/2_00362.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph _2_00362"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/_2_00362.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/3_00363.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph _3_00363"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/_3_00363.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/8_00368.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph _8_00368"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/_8_00368.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/IMG_007.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph IMG_007"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/IMG_007.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/IMG_003.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph IMG_003"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/IMG_003.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/IMG_006 1.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph IMG_006 1"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/IMG_006 1.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/IMG_009.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph IMG_009"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/IMG_009.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/IMG_006.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph IMG_006"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/IMG_006.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/3_00388.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph _3_00388"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/_3_00388.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/24747-013.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 24747-013"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/24747-013.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/24747-021.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 24747-021"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/24747-021.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/24747-022.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 24747-022"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/24747-022.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/24747-002.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 24747-002"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/24747-002.jpg')"
+					/>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<img
+						src="./assets/images/photography/24747-009.jpg"
+						class="img-thumbnail w-100"
+						alt="Photograph 24747-009"
+						data-bs-toggle="modal"
+						data-bs-target="#imageModal"
+						onclick="showImage('./assets/images/photography/24747-009.jpg')"
+					/>
+				</div>
+
+				<!-- Add more images as needed -->
+
+				<!-- Add more images as needed -->
+			</div>
+		</div>
+
+		<!-- Modal for enlarged image with arrows -->
+		<div
+			class="modal fade"
+			id="imageModal"
+			tabindex="-1"
+			aria-labelledby="imageModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content bg-dark">
+					<div
+						class="modal-body text-center p-0 position-relative"
+						style="overflow: hidden"
+					>
+						<!-- Left arrow -->
+						<button
+							id="modalPrev"
+							type="button"
+							class="btn btn-dark position-absolute top-50 start-0 translate-middle-y"
+							style="z-index: 2; font-size: 2rem; opacity: 0.7"
+						>
+							&#8592;
+						</button>
+						<!-- Image -->
+						<img
+							id="modalImage"
+							src=""
+							class="img-fluid"
+							style="max-height: 90vh; object-fit: contain"
+							alt="Enlarged image"
+						/>
+						<!-- Right arrow -->
+						<button
+							id="modalNext"
+							type="button"
+							class="btn btn-dark position-absolute top-50 end-0 translate-middle-y"
+							style="z-index: 2; font-size: 2rem; opacity: 0.7"
+						>
+							&#8594;
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="config.js"></script>
+	</body>
+</html>
