@@ -9,6 +9,16 @@ p {
 	font-size: 1rem;
 	line-height: 1.6;
 }
+h2 {
+	color: #ffffff;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+hr {
+	height: 3px;
+	background-color: #ffffff;
+	margin: 1rem 0;
+}
 a {
 	color: #499696;
 	text-decoration: none;
